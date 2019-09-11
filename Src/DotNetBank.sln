@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBank.Api", "DotNetBank.Api\DotNetBank.Api.csproj", "{D01D9F36-832B-4F4E-982F-9E68ADE13F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBank.Api", "DotNetBank.Api\DotNetBank.Api.csproj", "{D01D9F36-832B-4F4E-982F-9E68ADE13F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBank.IdentityServer", "DotNetBank.IdentityServer\DotNetBank.IdentityServer.csproj", "{F348DC84-0274-4890-BF4A-74954AB4A046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D01D9F36-832B-4F4E-982F-9E68ADE13F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D01D9F36-832B-4F4E-982F-9E68ADE13F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D01D9F36-832B-4F4E-982F-9E68ADE13F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F348DC84-0274-4890-BF4A-74954AB4A046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F348DC84-0274-4890-BF4A-74954AB4A046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F348DC84-0274-4890-BF4A-74954AB4A046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F348DC84-0274-4890-BF4A-74954AB4A046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
