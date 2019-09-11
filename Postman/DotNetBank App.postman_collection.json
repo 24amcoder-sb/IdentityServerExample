@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "00e0497b-5813-4a86-bb48-57426528af13",
+		"name": "DotNetBank App",
+		"description": "DotNetBank Web API\n\nEndpoints:\n\nGET: api/Customers\t\t\t-> GetAllCustomers\nGET: api/Customers/5\t\t-> GetSpecificCustomer\nPUT: api/Customers/5\t\t-> UpdateCustomer\t\t\tw/ CustomerObject\nPOST: api/Customers\t\t\t-> CreateCustomer\t\t\tw/ CustomerObject\nDELETE: api/Customers/5\t\t-> DeleteCustomer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllCustomers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:53857/api/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53857",
+					"path": [
+						"api",
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSpecificCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:53857/api/customers/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53857",
+					"path": [
+						"api",
+						"customers",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCustomer",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"Id\": 4,\n\t\"FirstName\" : \"Alice\",\n\t\"LastName\"  : \"Jones\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:53857/api/customers/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53857",
+					"path": [
+						"api",
+						"customers",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:53857/api/customers/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53857",
+					"path": [
+						"api",
+						"customers",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"Id\": 4,\n\t\"FirstName\" : \"Lokesh3\",\n\t\"LastName\"  : \"Swamy3\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:53857/api/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53857",
+					"path": [
+						"api",
+						"customers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

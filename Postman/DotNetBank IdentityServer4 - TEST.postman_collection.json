@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "2df90c2a-3cfd-4094-ba01-9cf7d87cbc91",
+		"name": "DotNetBank IdentityServer4 - TEST",
+		"description": "Refer the DotNetBank.IdentityServer4 project\n\nTo refer the urls, hit http://localhost:5000/.well-known/openid-configuration in browser",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Connect Token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "secret",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "client",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "DotNetBankApi",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
