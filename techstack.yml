@@ -1,7 +1,8 @@
 repo_name: 24amcoder-sb/IdentityServerExample
 report_id: b62de6f8ce2ffb43a93dacd1c8d9dd68
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T04:19:17+00:00'
+timestamp: '2024-01-05T08:39:27+00:00'
 requested_by: Lokesh-Swamy
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
   detection_source: Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 11:44:19.000000000 Z
@@ -41,8 +44,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: Src/DotNetBank.Api/DotNetBank.Api.csproj
-  detection_source: Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.Api/DotNetBank.Api.csproj
+  detection_source: Src/DotNetBank.Api/DotNetBank.Api.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 09:46:13.000000000 Z
 - name: ASP.NET Core
@@ -56,8 +59,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: Src/DotNetBank.Api/DotNetBank.Api.csproj
-  detection_source: Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.Api/DotNetBank.Api.csproj
+  detection_source: Src/DotNetBank.Api/DotNetBank.Api.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 09:46:13.000000000 Z
 - name: Git
@@ -68,6 +71,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -77,6 +81,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
   detection_source: Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 11:28:40.000000000 Z
@@ -89,6 +94,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.sln
   detection_source: Src/DotNetBank.sln
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 09:46:13.000000000 Z
@@ -102,7 +108,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13037/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
-  detection_source_url: Src/DotNetBank.Console/DotNetBank.Console.csproj
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.Console/DotNetBank.Console.csproj
   detection_source: Src/DotNetBank.Console/DotNetBank.Console.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 13:24:05.000000000 Z
@@ -116,7 +122,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13183/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
-  detection_source_url: Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
   detection_source: Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 11:44:19.000000000 Z
@@ -131,7 +137,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13407/default_12ffcfadaf9c605d855c3901f9dfe0c11282537c.png
-  detection_source_url: Src/DotNetBank.Api/DotNetBank.Api.csproj
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.Api/DotNetBank.Api.csproj
   detection_source: Src/DotNetBank.Api/DotNetBank.Api.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 12:29:51.000000000 Z
@@ -143,7 +149,8 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13005/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
-  detection_source: Src/DotNetBank.IdentityServer/DotNetBank.IdentityServer.csproj
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.Api/DotNetBank.Api.csproj
+  detection_source: Src/DotNetBank.Api/DotNetBank.Api.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 11:18:48.000000000 Z
 - name: Microsoft.VisualStudio.Web.CodeGeneration.Design
@@ -156,7 +163,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13477/default_eb78542773998d1500f13778aa04738ef49376bd.png
-  detection_source_url: Src/DotNetBank.Api/DotNetBank.Api.csproj
+  detection_source_url: https://github.com/24amcoder-sb/IdentityServerExample/blob/master/Src/DotNetBank.Api/DotNetBank.Api.csproj
   detection_source: Src/DotNetBank.Api/DotNetBank.Api.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-11 12:29:51.000000000 Z
